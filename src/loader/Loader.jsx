@@ -12,7 +12,11 @@ export const Loader = () => {
     animate= {{y:'-100%'}}
     transition={{ease:'easeIn',delay:2,duration: 2}}
     >
-        <h2>നമസ്കാരം</h2>
+        <div className="greet">
+          <h2>നമസ്കാരം</h2>
+          <p className='english'>Namaskaram</p>
+          <p>(Greetings in Malayalam)</p>
+        </div>
     </motion.div>
   )
 }

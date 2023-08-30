@@ -1,12 +1,41 @@
 import React from 'react'
 import './intro.css'
+import { easeIn, motion } from 'framer-motion'
 
 export const Intro = () => {
   return (
     <div className='intro'>
         <div className="intro-content">
-            <h2>Web Developer . Tech Enthusiast . Video Editor</h2>
-            <p>and much more</p>
+            <h2>
+                <motion.span
+                    initial={{opacity:0}}
+                    transition={{delay:5, duration:0.5}}
+                    animate={{opacity:1}}
+                >
+                    Web Developer
+                </motion.span>
+                <motion.span
+                    initial={{opacity:0}}
+                    transition={{delay:5.5, duration:0.5}}
+                    animate={{opacity:1}}
+                >
+                    . Tech Enthusiast
+                </motion.span>
+                <motion.span
+                    initial={{opacity:0}}
+                    transition={{delay:6, duration:0.5}}
+                    animate={{opacity:1}}
+                >
+                    . Video Editor
+                </motion.span>
+            </h2>
+            <motion.p
+                initial={{opacity:0}}
+                transition={{delay:7,duration:0.5}}
+                animate={{opacity:1}}
+            >
+                and much more
+            </motion.p>
         </div>
     </div>
   )
