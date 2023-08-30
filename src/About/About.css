@@ -1,5 +1,5 @@
 .about{
-    height: 90vh;
+    height: 80vh;
     width: 92vw;
     display: flex;
     align-items: center;
@@ -10,6 +10,23 @@
 .about h2{
     font-family: 'Raleway';
     font-size: 2rem;
+}
+.resume-button{
+    display: inline-block;
+    text-align: center;
+    background-color: #232020;
+    color: #d9d9d9;
+    text-decoration: none;
+    width: 20vw;
+    padding:0.5rem;
+    margin-top: 3rem;
+    box-shadow: 5px 5px 0px -2px #d9d9d9, 5px 5px #232020;
+}
+.resume-button:hover{
+    background-color: #d9d9d9;
+    color: #232020;
+    cursor: pointer;
+    border: 1px solid #232020;
 }
 
 @media only screen and (min-width:800px) {
@@ -26,5 +43,9 @@
     .about p{
         font-size: 1.15rem;
         margin-bottom: 2rem;
+    }
+    .resume-button{
+        width:10vw;
+        font-size: 0.9rem;
     }
 }
