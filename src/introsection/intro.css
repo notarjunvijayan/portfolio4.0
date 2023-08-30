@@ -1,6 +1,6 @@
 .intro{
     display: flex;
-    height: 50vh;
+    height: 100vh;
     padding: 1rem;
     align-items: center;
     justify-content: center;
@@ -17,7 +17,7 @@
 
 @media only screen and (min-width:800px) {
     .intro{
-        height: 75vh;
+        height: 100vh;
     }
     .intro h2{
         font-size: 3rem;

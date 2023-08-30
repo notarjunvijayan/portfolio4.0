@@ -1,12 +1,7 @@
-import React, { useState } from 'react'
-import { easeIn, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 import './loader.css'
 
 export const Loader = () => {
-  const [loader, setLoader] = useState("loader loader-true")
-  setTimeout(()=>{
-    setLoader('loader loader-false')
-  },3000)
   return (
     <motion.div className='loader' 
     animate= {{y:'-100%'}}

@@ -1,10 +1,10 @@
 import React from 'react'
 import './intro.css'
-import { easeIn, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 export const Intro = () => {
   return (
-    <div className='intro'>
+    <div className='intro' id='home'>
         <div className="intro-content">
             <h2>
                 <motion.span
