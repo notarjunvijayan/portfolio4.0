@@ -3,19 +3,23 @@
     text-align: center;
     margin: 1rem 0;
     overflow: hidden;
-    height: 30vh;
+    height: 25vh;
 }
 .navbar h1{
     font-size: 3rem;
     margin:0;
 }
 .navbar ul{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
     font-family: 'Raleway';
     list-style-type: none;
     padding: 0%;
 }
 .navbar ul li{
     margin-bottom: 1rem;
+    margin: 0 1rem 0 1rem;
 }
 
 @media only screen and (min-width:800px) {
@@ -35,6 +39,7 @@
     }
     .navbar ul{
         display: flex;
+        width:60vw;
         align-items: center;
         justify-content: flex-end;
     }
