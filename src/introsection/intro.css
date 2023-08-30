@@ -1,10 +1,11 @@
 .intro{
     display: flex;
-    height: 60vh;
+    height: 50vh;
     padding: 1rem;
     align-items: center;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
 }
 .intro h2{
     font-family: 'Raleway';
@@ -16,7 +17,7 @@
 
 @media only screen and (min-width:800px) {
     .intro{
-        height: 95vh;
+        height: 75vh;
     }
     .intro h2{
         font-size: 3rem;
@@ -24,5 +25,6 @@
     }
     .intro p{
         font-size: 1.5rem;
+        margin-top: 4rem;
     }
 }
