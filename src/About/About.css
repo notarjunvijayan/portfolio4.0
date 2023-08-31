@@ -27,7 +27,6 @@
 .resume-button:hover{
     background-color: #d9d9d9;
     color: #232020;
-    cursor: pointer;
     border: 1px solid #232020;
 }
 .about svg{
