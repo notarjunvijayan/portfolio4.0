@@ -10,7 +10,7 @@ export const About = () => {
         <motion.h2
           initial={{opacity:0}}
           whileInView={{ opacity: 1 }}
-          transition={{duration: 1, delay:0.5}}
+          transition={{duration: 0.5, delay:0.5}}
         >Welcome</motion.h2>
         <motion.div
           initial={{opacity:0, x:'-5px'}}
@@ -25,12 +25,12 @@ export const About = () => {
         <motion.a
         initial={{opacity:0, y:'5px'}}
         whileInView={{opacity:1, y:'0px'}}
-        transition={{delay:1}} 
+        transition={{delay:0.5,duration:0.5}} 
         type='button' className='resume-button' href='https://drive.google.com/file/d/1j72QUsH_DsWYph8tc3WPHZ4t6NL4poBq/view?usp=sharing' target='_blank' rel='noreferrer'>Get Resume</motion.a>
         <motion.a
         initial={{opacity:0, y:'5px'}}
         whileInView={{opacity:1, y:'0px'}}
-        transition={{delay:1}} 
+        transition={{delay:0.8, duration:0.5}} 
         type='button' className='resume-button' href='#contact'>Contact Me</motion.a>
         </div>
         <motion.div
