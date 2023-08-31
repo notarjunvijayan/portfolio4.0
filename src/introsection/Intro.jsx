@@ -12,21 +12,21 @@ export const Intro = () => {
                     transition={{delay:5, duration:0.5}}
                     animate={{opacity:1}}
                 >
-                    Web Developer
+                    Web Developer 
                 </motion.span>
                 <motion.span
                     initial={{opacity:0}}
                     transition={{delay:5.5, duration:0.5}}
                     animate={{opacity:1}}
                 >
-                    . Tech Enthusiast
+                    . Tech Enthusiast 
                 </motion.span>
                 <motion.span
                     initial={{opacity:0}}
                     transition={{delay:6, duration:0.5}}
                     animate={{opacity:1}}
                 >
-                    . Video Editor
+                    . Casual Gamer
                 </motion.span>
             </h2>
             <motion.p
