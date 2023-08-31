@@ -23,14 +23,14 @@ export const About = () => {
           <p>Wanna Get in Touch? Click the buttons below to get my resume or Contact me</p>
         </motion.div>
         <motion.a
-        initial={{opacity:0, y:'-5px'}}
+        initial={{opacity:0, y:'5px'}}
         whileInView={{opacity:1, y:'0px'}}
-        transition={{delay:0.5}} 
+        transition={{delay:1}} 
         type='button' className='resume-button' href='https://drive.google.com/file/d/1j72QUsH_DsWYph8tc3WPHZ4t6NL4poBq/view?usp=sharing' target='_blank' rel='noreferrer'>Get Resume</motion.a>
         <motion.a
-        initial={{opacity:0, y:'-5px'}}
+        initial={{opacity:0, y:'5px'}}
         whileInView={{opacity:1, y:'0px'}}
-        transition={{delay:0.5}} 
+        transition={{delay:1}} 
         type='button' className='resume-button' href='#contact'>Contact Me</motion.a>
         </div>
         <motion.div
