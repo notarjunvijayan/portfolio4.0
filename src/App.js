@@ -3,6 +3,7 @@ import { Navbar } from './navbar/Navbar';
 import { Loader } from './loader/Loader';
 import { Intro } from './introsection/Intro';
 import { About } from './About/About';
+import { Contact } from './Contact/Contact';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar></Navbar>
       <Intro></Intro>
       <About></About>
+      <Contact></Contact>
     </div>
   )
 }
