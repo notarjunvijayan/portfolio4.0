@@ -3,6 +3,8 @@ import data from './data/quotes.json'
 import './quotes.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDice } from '@fortawesome/free-solid-svg-icons'
+import { AnimatePresence, motion } from 'framer-motion'
+import { isVisible } from '@testing-library/user-event/dist/utils'
 
 export const Quotes = () => {
   const quotes = data.Quotes
@@ -23,13 +25,43 @@ export const Quotes = () => {
     }
   return (
     <div className="quotes">
-        <div className="dummy">
+        <motion.div
+          initial={{y:'-5px',opacity:0}}
+          whileInView={{y:'0px',opacity:1}}
+          transition={{delay:0.5,duration:0.5}} 
+        className="dummy">
             <div className="quotetext">
-                <p className='quote'>"{quote[0].Quote}"</p>
-                <p className='quotename'>-{quote[0].Name}</p>
+                <AnimatePresence initial={false}>
+                {isVisible && (
+                  <motion.p 
+                  initial={{x:'-5px',opacity:0}}
+                  animate={{x:'0px',opacity:1}}
+                  key={quote[0].Quote}
+                  className='quote'>
+                  "{quote[0].Quote}"
+              </motion.p>
+                )}
+                </AnimatePresence>
+              <AnimatePresence>
+                {isVisible && (
+                  <motion.p 
+                    initial={{x:'5px', opacity:0}}
+                    animate={{x:'0px',opacity:1}}
+                    key={quote[0].Quote}
+                  className='quotename'>-{quote[0].Name}
+                  </motion.p>
+                )}
+              </AnimatePresence>
             </div>
-        <a type='button' className='resume-button' onClick={setter}><FontAwesomeIcon icon={faDice} /> Change Quote</a>
-        </div>
+        <motion.a 
+          initial={{y:'10px',opacity:0}}
+          whileInView={{y:'0px',opacity:1}}
+          transition={{duration:0.5, delay:1}}
+          type='button' className='resume-button' 
+          onClick={setter}>
+            <FontAwesomeIcon icon={faDice} /> Change Quote
+        </motion.a>
+        </motion.div>
     </div>
   )
 }

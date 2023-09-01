@@ -8,9 +8,13 @@
 .quote{
     font-size: 1rem;
 }
+.quotetext{
+    height: 20vh;
+}
 .quotename{
     float: right;
     font-size: 1rem;
+    font-style: italic;
 }
 .dummy{
     width:60vw;
@@ -18,4 +22,13 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+
+@media only screen and (min-width:800px){
+    .dummy{
+        width:40vw;
+    }
+    .quote{
+        font-size: 1.5rem;
+    }
 }
