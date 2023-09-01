@@ -4,6 +4,7 @@ import { Loader } from './loader/Loader';
 import { Intro } from './introsection/Intro';
 import { About } from './About/About';
 import { Contact } from './Contact/Contact';
+import { Quotes } from './Quotes/Quotes';
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
@@ -13,7 +14,6 @@ function App() {
     x:0,
     y:0
   })
-  console.log(mousePosition)
 
   useEffect(()=>{
     const mouseMove=e=>{
@@ -47,6 +47,7 @@ function App() {
       <Navbar></Navbar>
       <Intro></Intro>
       <About></About>
+      <Quotes></Quotes>
       <Contact></Contact>
     </div>
   )

@@ -1,6 +1,5 @@
 .contact{
-    height: 80vh;
-    width: 92vw;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +23,6 @@
         width: 30vw;
     }
     .contact{
-        width: 90vw;
         padding: 5vh 5vw 0 5vw;
         height: 100vh;
     }
