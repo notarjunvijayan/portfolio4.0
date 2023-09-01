@@ -5,6 +5,8 @@ import { Intro } from './introsection/Intro';
 import { About } from './About/About';
 import { Contact } from './Contact/Contact';
 import { Quotes } from './Quotes/Quotes';
+import { Footer } from './Footer/Footer';
+
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 
@@ -49,6 +51,7 @@ function App() {
       <About></About>
       <Quotes></Quotes>
       <Contact></Contact>
+      <Footer></Footer>
     </div>
   )
 }
