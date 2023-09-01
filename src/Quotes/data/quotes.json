@@ -13,12 +13,16 @@
             "Quote":"What you give is what you get."
         },
         {
-            "Name":"Fate is in your hands and no one else.",
-            "Quote":"Byron Pulsifer"
+            "Name":"Byron Pulsifer",
+            "Quote":"Fate is in your hands and no one else."
         },
         {
             "Name":"Eudora Welty",
             "Quote":"All serious daring starts from within."
+        },
+        {
+            "Name": "A.P.J Abdul Kalam",
+            "Quote":"Dreams are not what you see in sleep, it is the thing which doesn’t let you sleep."
         }
     ]
 }
