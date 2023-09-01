@@ -21,6 +21,14 @@
             "Quote":"All serious daring starts from within."
         },
         {
+            "Name":" Mahatma Gandhi",
+            "Quote":"Be the change that you wish to see in the world."
+        },
+        {
+            "Name":"Oscar Wilde",
+            "Quote":"Be yourself; everyone else is already taken."
+        },
+        {
             "Name": "A.P.J Abdul Kalam",
             "Quote":"Dreams are not what you see in sleep, it is the thing which doesn’t let you sleep."
         },
@@ -31,6 +39,26 @@
         {
             "Name":"Paulo Coelho",
             "Quote":"Impossible is just an opinion."   
+        },
+        {
+            "Name":"Rosa Parks",
+            "Quote":"We will fail when we fail to try."
+        },
+        {
+            "Name":"Alexander the Great",
+            "Quote":"There is nothing impossible to they who will try."
+        },
+        {
+            "Name":"Walt Disney",
+            "Quote":"It's kind of fun to do the impossible."
+        },
+        {
+            "Name":"Walt Disney",
+            "Quote":"If you can dream it, you can do it."
+        },
+        {
+            "Name":"Albert Einstein",
+            "Quote":"Creativity is intelligence having fun."
         }
     ]
 }
