@@ -23,6 +23,14 @@
         {
             "Name": "A.P.J Abdul Kalam",
             "Quote":"Dreams are not what you see in sleep, it is the thing which doesn’t let you sleep."
+        },
+        {
+            "Name":"Pablo Picasso",
+            "Quote":"Everything you can imagine is real."
+        },
+        {
+            "Name":"Paulo Coelho",
+            "Quote":"Impossible is just an opinion."   
         }
     ]
 }
