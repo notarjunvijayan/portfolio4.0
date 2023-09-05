@@ -16,13 +16,11 @@ export const Quotes = () => {
   useEffect(() => {
     async function setter() {
       setQuote([quotes[Math.floor(Math.random() * len)]]);
-      console.log(quote);
     }
     setter();
   }, []);
   function setter() {
     setQuote([quotes[Math.floor(Math.random() * len)]]);
-    console.log(quote);
   }
   return (
     <div className="quotes">
