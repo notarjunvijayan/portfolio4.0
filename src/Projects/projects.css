@@ -1,0 +1,16 @@
+.projects{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projects h2{
+    font-family: "Raleway";
+    font-size: 2rem;
+}
+
+@media only screen and (min-width:800px) {
+    .projects h2{
+        font-size: 3rem;
+    }
+}

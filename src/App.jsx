@@ -6,6 +6,7 @@ import { About } from './About/About';
 import { Contact } from './Contact/Contact';
 import { Quotes } from './Quotes/Quotes';
 import { Footer } from './Footer/Footer';
+import { Projects } from './Projects/Projects';
 
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
@@ -50,6 +51,7 @@ function App() {
       <Intro></Intro>
       <About></About>
       <Quotes></Quotes>
+      <Projects></Projects>
       <Contact></Contact>
       <Footer></Footer>
     </div>
