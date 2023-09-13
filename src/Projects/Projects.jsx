@@ -53,7 +53,13 @@ export const Projects = () => {
     <div id="projects" className="projects">
       <div className="projects-content">
         <h2>Projects</h2>
-        <h3>{proj.Name}</h3>  
+        <motion.h3
+          initial={{y:'-5px',opacity:0}}
+          whileInView={{y:'0px',opacity:1}}
+          transition={{duration:0.5}}
+        >
+          {proj.Name}
+        </motion.h3>  
         <div className="button-row">
           <button onClick={prev}>&lt;</button>
           <AnimatePresence mode="wait">
