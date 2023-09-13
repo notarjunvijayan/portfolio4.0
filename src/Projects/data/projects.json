@@ -1,0 +1,23 @@
+{
+   "Projects": [
+        {
+            "Name":"Dictionary",
+            "Desc":"A Dictionary Web Application that gives definition, phonetic, and image for a given word. Made with ReactJs and animated with Framer Motion. Deployed on Vercel",
+            "Git":"https://github.com/notarjunvijayan/dictionary",
+            "Live":"https://dictionary-notarjunvijayan.vercel.app/",
+            "Img":"./data/dictionary.png"
+        },
+        {
+            "Name":"Calculator",
+            "Desc": "A Web Calculator that can solve simple arithmetic Expressions. Made with ReactJs and animated with Framer Motion. Deployed on Vercel",
+            "Git":"https://github.com/notarjunvijayan/calc",
+            "Live":"https://calc-ivory.vercel.app/"
+        },
+        {
+            "Name":"mecX",
+            "Desc":"A full Stack Web Application that acts as an job tracker and an appointment management system. Made with ReactJs, ExpressJs and MongoDB",
+            "Git":"https://github.com/notarjunvijayan/Workfront-front",
+            "Live":"none"
+        }
+    ]
+}

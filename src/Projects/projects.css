@@ -2,15 +2,46 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center ;
+    padding: 0 4vw;
+}
+.projects-content{
+    text-align: center;
 }
 .projects h2{
     font-family: "Raleway";
     font-size: 2rem;
 }
+.button-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projects img{
+    width: 75vw;
+    margin: 0 2vw;
+}
+
+.projects button{
+    background-color: #d9d9d9;
+    border: none;
+    font-size: 1.25rem;
+}
 
 @media only screen and (min-width:800px) {
+    .projects{
+        padding: 0 25vw;
+    }
     .projects h2{
         font-size: 3rem;
+    }
+    .projects img{
+        width: 45vw;
+    }
+    .projects h3{
+        font-size: 2rem;
+    }
+    .projects button{
+        font-size: 1.5rem;
     }
 }
