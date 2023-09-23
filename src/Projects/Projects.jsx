@@ -43,6 +43,8 @@ export const Projects = () => {
           transition={{ duration: 0.5 }}
           className="resume-button"
           href={proj.Live}
+          target="_blank"
+          rel="noreferrer"
         >
           <FontAwesomeIcon icon={faGlobe} /> Live Page
         </motion.a>
@@ -80,6 +82,8 @@ export const Projects = () => {
           transition={{ duration: 0.5 }}
           className="resume-button"
           href={proj.Git}
+          target="_blank"
+          rel="noreferrer"
         >
           <FontAwesomeIcon icon={faGithub} /> View Code
         </motion.a>
