@@ -8,6 +8,7 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { AnimatePresence } from "framer-motion";
 import { motion } from "framer-motion";
 
+
 export const Projects = () => {
   const [index, setIndex] = useState(0);
   const [proj, setProj] = useState(data.Projects[index]);
