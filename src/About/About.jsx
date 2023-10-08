@@ -26,7 +26,7 @@ export const About = () => {
         initial={{opacity:0, y:'5px'}}
         whileInView={{opacity:1, y:'0px'}}
         transition={{delay:0.2,duration:0.5}} 
-        type='button' className='resume-button' href='https://drive.google.com/file/d/1j72QUsH_DsWYph8tc3WPHZ4t6NL4poBq/view?usp=sharing' target='_blank' rel='noreferrer'>Get Resume</motion.a>
+        type='button' className='resume-button' href='https://drive.google.com/file/d/1qFRWvToklIBPI3sodoRxLpFvuJWNDDuC/view?usp=sharing' target='_blank' rel='noreferrer'>Get Resume</motion.a>
         <motion.a
         initial={{opacity:0, y:'5px'}}
         whileInView={{opacity:1, y:'0px'}}
