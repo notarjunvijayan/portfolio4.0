@@ -24,6 +24,12 @@
       "Desc": "A Web Calculator that can solve simple arithmetic Expressions. Made with ReactJs and animated with Framer Motion. Deployed on Vercel",
       "Git": "https://github.com/notarjunvijayan/calc",
       "Live": "https://calc-ivory.vercel.app/"
+    },
+    {
+      "Name": "Abhiyanthriki 2023",
+      "Desc": "Web Application made for Abhiyanthriki 2023, RSET's biennial tech festival.",
+      "Git": "https://github.com/notarjunvijayan/abhiyanthriki2023",
+      "Live": "https://a3k.tech",
     }
   ]
 }
